@@ -1,0 +1,46 @@
+.headerContainer {
+    background: white;
+    height: 4rem;
+    display: flex;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    margin-top: 4rem;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    
+
+    .menu{
+        display: flex;
+        margin-left: auto;
+        width: 17rem;
+        justify-content: space-between;
+        
+    }
+
+    button{
+        
+        border:0 none;
+        font-size: 1.2rem;
+        background-color: white;
+        color: rgb(247, 173, 175);
+        outline: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        
+
+        &:hover{
+            background-color: rgb(247, 173, 175);
+            font-size: 1.2rem;
+            color: white;
+            height: 100%;
+            background-size: 70px auto;
+            
+        }
+
+    }
+
+}
+
