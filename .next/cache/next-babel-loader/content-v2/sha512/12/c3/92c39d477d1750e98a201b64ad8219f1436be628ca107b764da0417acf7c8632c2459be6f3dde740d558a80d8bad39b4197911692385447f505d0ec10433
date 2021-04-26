@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport styles from './styles.module.scss';\nexport function Perfil() {\n  return /*#__PURE__*/_jsx(\"header\", {\n    className: styles.perfilContainer\n  });\n}","map":null,"metadata":{},"sourceType":"module"}
